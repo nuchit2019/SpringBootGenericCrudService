@@ -55,11 +55,12 @@ public abstract class BaseEntity implements Serializable {
 }
 
 ```
-#### Purpose:
-Centralizes the id property and its generation strategy to avoid duplication across entities.
+    Purpose:
+        Centralizes the id property and its generation strategy to avoid duplication across entities.
 
-#### Usage:
-All entity classes (e.g., Product, Customer) extend BaseEntity to inherit the id field.
+    Usage:
+        All entity classes (e.g., Product, Customer) extend BaseEntity to inherit the id field.
+        
 2. BaseRepository
    BaseRepository is a generic repository interface that extends Spring Data JPA’s JpaRepository.
 
